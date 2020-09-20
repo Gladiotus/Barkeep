@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+<section class="main-section">
+	<div class="search-container">
+		<input class="drink-search" type="text" placeholder="Search Your Next Cocktail..." />
+		<div class="search-by-container">
+			<button class="search-by search-by-selected">Name</button>
+			<button class="search-by">Ingredient</button>
+		</div>
+		<div class="liked-drink-container">
+			<div class="liked-drink-icon">
+				<i class="fas fa-heart fa-3x"></i>
+			</div>
+			<div class="liked-drink-list">Liked Drinks:</div>
+		</div>
+	</div>
+	<div class="container drink-container">
+		<div class="drink-list"></div>
+		<div class="drink-desc"></div>
+		<div class="drink-shop-list">
+			<h1 class="shop-list-header">Shopping List</h1>
+		</div>
+	</div>
+</section>
+<%- include("partials/footer") %>
